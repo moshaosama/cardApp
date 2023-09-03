@@ -1,0 +1,60 @@
+
+.Router {
+    position: absolute;
+    top: 3pc;
+}
+
+.Oper {
+    padding: 0px 14pc;
+}
+.Name {
+    padding: 10px 0px;
+}
+.ClearAll {
+    position: relative;
+    left: 29pc;
+    top: 5pc;
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 5pc;
+    height: 2pc;
+    border-radius: 10px;
+}
+
+#Nav {
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+#Products ,#Carts {
+    margin: 50px;
+}
+.Forms {
+    position: relative;
+    left: 35pc;
+    top: 8pc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#Input {
+    width: 30pc;
+}
+#submit {
+    margin: 0px 10pc;
+}
+
+@media (max-width: 433px) {
+    #Nav {
+        margin: 0px 37px;
+    }
+    .Forms {
+        left: 1pc;
+    }
+    #Input {
+        width: 23pc;
+    }
+    #submit{
+        margin: 0px 7pc;
+    }
+}
